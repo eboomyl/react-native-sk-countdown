@@ -17,7 +17,7 @@ import {
 StyleSheet,
 Text,
 } from 'react-native';
-var update = require('react-addons-update')
+var update = require('immutability-helper')
 var countDown = require('./countDown')
 
 var CountDownText = React.createClass({
